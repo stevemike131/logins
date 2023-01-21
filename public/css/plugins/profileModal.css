@@ -1,0 +1,106 @@
+@media (min-width: 769px) and (max-width: 1091px) {
+    #profileModal .modal-dialog {
+        max-width: 90vw;
+        margin: 1.75rem auto;
+    }
+}
+@media (min-width: 569px) and (max-width: 768px) {
+    #profileModal .modal-dialog {
+        max-width: 92vw;
+        margin: 1.75rem auto;
+    }
+}
+@media (min-width: 1092px) {
+    #profileModal .modal-dialog {
+        min-width: 97vw;
+        margin: 1.75rem auto;
+    }
+}
+@media (max-width: 576px) {
+    #profileModal .modal-header {
+        margin: 0 auto !important;
+        padding: 7px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 769px) {
+    #profileModal .modal-dialog {
+        border: none !important;
+    }
+}
+#profileModal .modal-body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#profileModal {
+    overflow-y: hidden !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#profileModal .modal-dialog {
+    top: -4vh !important;
+    overflow-y: hidden !important;
+    height: 100% !important;
+}
+#profileModal .modal-dialog .modal-content {
+    max-height: 52% !important;
+}
+#profileModal .modal-dialog .modal-body {
+    overflow-y: auto !important;
+}
+#profileModal .modal-dialog .modal-body::-webkit-scrollbar {
+    width: 10px;
+}
+@media screen and (max-width: 821px) {
+    #profileModal .modal-dialog {
+        top: 17vh !important;
+    }
+    #profileModal .modal-dialog .modal-content {
+        max-height: 35% !important;
+    }
+}
+@media screen and (max-width: 769px) {
+    #profileModal .modal-dialog {
+        top: 15vh !important;
+    }
+    #profileModal .modal-dialog .modal-content {
+        max-height: 35% !important;
+    }
+}
+@media screen and (max-width: 570px) {
+    #profileModal .modal-dialog {
+        top: 10vh !important;
+    }
+    #profileModal .modal-dialog .modal-content {
+        max-height: 45% !important;
+    }
+}
+@media screen and (max-width: 370px) {
+    #profileModal .modal-dialog {
+        top: 8vh !important;
+    }
+    #profileModal .modal-dialog .modal-content {
+        max-height: 45% !important;
+    }
+}
+@media screen and (max-width: 570px) {
+    #profileModal .modal-dialog {
+        max-width: 98vw !important;
+    }
+}
+#profileModal .modal-dialog {
+    background: transparent !important;
+}
+#profileModal .modal-header {
+    margin: 0 !important;
+}
+#profileModal .modal-header img {
+    width: 30px !important;
+    opacity: 0.7 !important;
+    border-radius: 50%;
+}
+#profileModal .modal-header img:hover {
+    width: 30px !important;
+    opacity: 1 !important;
+}
